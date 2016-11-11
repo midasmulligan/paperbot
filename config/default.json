@@ -1,6 +1,6 @@
 {
-    "appSecret": "689bc04a0b55ce4069c2e720da11b7b0",
-    "pageAccessToken": "EAAFDlgI38A4BAKiQMaoOmbtG4ukv1hBdGpy5WV6cjj6VcRe5w26T7TkFCDSaZBzLZCnl5Hi7sVngxDhPRxBsZCZAwML31FShSHRaizoRKGhpPZBZCdrBMQKeNxBIZACEuHem2n4ZBAKjjiZBZBRBZCDGZCgBZBECxfyUpUGJlx4mRoyFHoQZDZD",
-    "validationToken": "wubbalubbadubdub",
-    "serverURL": "https://news-chatbot.herokuapp.com/"
+    "appSecret": "753a0e61aedb2f7229136eedd2d02351",
+    "pageAccessToken": "EAACEdEose0cBAEzCRs1GeGRfIyLsTJMtp9Gcn6hO3GKrH5X3HHwcKIj2VndYEa36ZAEXRHQNpQwmdXNGPkvLDNFj6ZB2o0mM29RYFKG1kHPKfAD4FWAgmJIJZBSftvOhU0uC0mbroh2QZCey4L2UxWKqAw5KARLABXHhD1L0ONdsCgonG9u2",
+    "validationToken": "EAAFNIUwo0kYBAAvvjnGDh5L1tB5slaJs3xZB1pBVZB1JYZAVfrX3ZC9egzRhFlW3SBS2a1QgQLqzA1ZAi6nB1cZAW79La69u3SUHxxWCXtZC9XZC6XdeoZAeQ9GraDSgEYUyepX5tOa3eeut2k4NvBP6JuOuYmMCf9mMmWd880L9pjwZDZD",
+    "serverURL": "https://qgs-geoff.herokuapp.com/"
 }
