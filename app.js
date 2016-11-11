@@ -378,15 +378,25 @@ function receivedMessage(event) {
     // the text we received.
     switch (messageText) {
 
-      case 'poll me':
-        send(msg.ask('Do you think John Tory is doing a good job as mayor?', 'mayor_status', 'Yes', 'No')).to(senderID);
-        break;
-      case 'subscription cta':
-        send(msg.button('Would you like a list of morning headlines? We\'ll message you at 7 AM EST, every day.', [{type: 'postback', title: 'Sign Me Up', payload: 'SIGN_UP_MH'}, {type: 'postback', title: 'No Thanks', payload: 'NO_SIGN_UP_MH'}])).to(senderID);
-        break;
-      case 'breaking news cta':
-        send(msg.ask('The United States election is a hot mess. Should we keep you updated?', 'US_ELECTIONS', 'Keep Me Updated', 'I\'ll Pass')).to(senderID);
-        break;
+    	default:
+    	  send(msg.button('Hi there! What can I help you with? I can currently answer questions regarding the American election.', [{type: 'postback', title: 'Candidates', payload: 'CANDIDATES_US'}, {type: 'postback', title: 'Election Facts', payload: 'ELECTION_FACTS_US'}, {type: 'postback', title:'Never mind', payload: 'NEVER_MIND'}])).to(senderID);
+    	  break;
+    	case 'Candidates':
+    	  send(msg.button('Who would you like information on?', [{type:'postback', title: 'Hillary Clinton', payload: 'HILLARY_CLINTON'}], [{type: 'postback', title: 'Donald Trump', payload: 'DONALD_TRUMP'}])).to(senderID);
+    	  break;
+    	case 'Hillary Clinton':
+    	  sendTextMessage(senderID, "Hillary Clinton was the candidate for the democratic party and her running mate was Tim Kaine. Though she did not secure sufficient electoral votes to get elected, she won popular support.");
+    	  break;
+    	case 'Donald Trump'
+   //   case 'poll me':
+   //     send(msg.ask('Do you think John Tory is doing a good job as mayor?', 'mayor_status', 'Yes', 'No')).to(senderID);
+   //     break;
+   //   case 'subscription cta':
+   //     send(msg.button('Would you like a list of morning headlines? We\'ll message you at 7 AM EST, every day.', [{type: 'postback', title: 'Sign Me Up', payload: 'SIGN_UP_MH'}, {type: 'postback', title: 'No Thanks', payload: 'NO_SIGN_UP_MH'}])).to(senderID);
+   //     break;
+   //   case 'breaking news cta':
+   //     send(msg.ask('The United States election is a hot mess. Should we keep you updated?', 'US_ELECTIONS', 'Keep Me Updated', 'I\'ll Pass')).to(senderID);
+   //     break;
       case 'testing this':
         sendTextMessage(senderID, '"' + messageText + '" works!');
         break;
@@ -441,9 +451,6 @@ function receivedMessage(event) {
       case 'account linking':
         sendAccountLinking(senderID);
         break;
-
-      default:
-        aiResponse(senderID, messageText);
     }
   } else if (messageAttachments) {
     sendTextMessage(senderID, "Message with attachment received");

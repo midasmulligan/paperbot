@@ -1,6 +1,6 @@
 {
     "appSecret": "753a0e61aedb2f7229136eedd2d02351",
-    "pageAccessToken": "EAACEdEose0cBAEzCRs1GeGRfIyLsTJMtp9Gcn6hO3GKrH5X3HHwcKIj2VndYEa36ZAEXRHQNpQwmdXNGPkvLDNFj6ZB2o0mM29RYFKG1kHPKfAD4FWAgmJIJZBSftvOhU0uC0mbroh2QZCey4L2UxWKqAw5KARLABXHhD1L0ONdsCgonG9u2",
-    "validationToken": "EAAFNIUwo0kYBAAvvjnGDh5L1tB5slaJs3xZB1pBVZB1JYZAVfrX3ZC9egzRhFlW3SBS2a1QgQLqzA1ZAi6nB1cZAW79La69u3SUHxxWCXtZC9XZC6XdeoZAeQ9GraDSgEYUyepX5tOa3eeut2k4NvBP6JuOuYmMCf9mMmWd880L9pjwZDZD",
-    "serverURL": "https://qgs-geoff.herokuapp.com/"
+    "pageAccessToken": "EAAFNIUwo0kYBAM3Xb3zqg0Y8vZCScD1g6AqHAgnH24sP3yyzWgLsfqvkZCogajCawwTdo0Q2k9afeuUIxT0ycz2Wr4q0CiChAUCBk4pgEi3pZBaRkii7m6xbwH7OhM2I3ZBBVGuyhamyVDkHZBF04NWuaKtzoNfhwqUNWACJgwgZDZD",
+    "validationToken": "EAAFNIUwo0kYBAES0mWrqz0YbDxDDPc1bHC5zvcxNzMCtZAPGW5HT9lWvGSHbhdpHOFMpYZCaZAedgp5g6mcdPHfefayfLsw80TeqpgyAigfrsCaqxGLR2A5ySmPVeRVpARZAJy3Jpzl3fwB3VytpZCBZCAYZArZAVNBLHVcalDXQgQZDZD",
+    "serverURL": "https://intense-depths-39054.herokuapp.com/"
 }
